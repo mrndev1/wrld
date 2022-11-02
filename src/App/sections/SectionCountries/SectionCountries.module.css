@@ -1,0 +1,14 @@
+.container { display: flex; justify-content: center; }
+.countries_container {
+    display: flex; justify-content: center; align-items: center;
+    flex-wrap: wrap; width: 70vw; gap: 10px;
+}
+
+.loading {
+    background-image: url(../../../img/world-load.gif); background-size: cover; background-position: center;
+    border-radius: 100%; height: 20rem; width: 20rem;
+}
+
+@media screen and (max-width: 1000px) {
+    .countries_container { justify-content: center; }
+}

@@ -1,0 +1,13 @@
+body, h1 { padding: 0px; margin: 0px; }
+a {
+    background-color: #ffff55; border-radius: 5px; padding: 5px;
+    text-decoration: none; color: #000;
+}
+.app, .app_loading {
+    background-image: url(../img/wrld-3.png); background-size: cover; background-position: center;
+    display: flex; flex-direction: column; justify-content: flex-start; align-items: center;
+}
+
+.app_loading { height: 100vh; }
+
+@media screen and (min-width: 1500px) { .app { height: 100vh; } }

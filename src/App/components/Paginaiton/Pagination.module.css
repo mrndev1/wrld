@@ -1,0 +1,7 @@
+.container {
+    background-color: #ffff; box-shadow: 0px 3px 10px -5px #000; border-radius: 5px;
+    display: flex; justify-content: center; align-items: center; width: 20rem;
+}
+.container_btn, .container_item { background-color: #ffff; border: 0px; border-radius: 5px; width: 100%; }
+.container_btn { padding: 10px; }
+.container_item { text-align: center; }

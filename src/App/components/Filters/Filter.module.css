@@ -1,0 +1,9 @@
+
+.container {
+    background-color: #ffff; box-shadow: 0px 3px 10px -5px #000; border-radius: 5px; border: 0px;
+    display: flex; justify-content: space-between; align-items: center;
+    width: 20rem;
+}
+
+.select, .btn { background-color: #ffff; border: 0px; border-radius: 5px; padding: 10px; }
+.select { width: 60%; } .btn { width: 40%; }
